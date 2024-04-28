@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px red;
+}
+
+.nav-bar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    row-gap: auto;
+    background-color: blueviolet;
+    /* position: absolute; */
+    right: 0;
+    left: 0;
+    top: 0;
+    /* z-index: 999; */
+    overflow-y: hidden;
+
+}
+
+.brand-logo{
+    width: 100%;
+    height: auto;
+}
+
+.nav-left{
+    width: 10%;
+    align-items: left;
+    padding: 20px;
+    /* padding-left: 100px; */
+}
+
+.nav-right{
+    width: 35%;
+    align-items: right;
+    justify-content: space-between;
+    row-gap: auto;
+    display: flex;
+    padding: 20px;
+    /* padding-right: 100px; */
+}
+
+/* .hero-section{
+    width: 100vw;
+    height: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    /* justify-items: center; */
+    border: 2px red;
+    background-color: forestgreen;
+} */
+
+.hero-section {
+    height: 100vh; /* Full viewport height */
+    background-image: url(./assets/restaurant\ hero\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    overlay: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: white; */
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+  }
+
+.hero-header{
+    font-size: 64px;
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* justify-content: space-between; */
+    /* margin: 100px; */
+    width: 100vw;
+    z-index: 0;
+}
+
